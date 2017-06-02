@@ -35,21 +35,21 @@
 	(function($) {
     	$.fn.hasScrollBar = function() {
     //		console.log(this.get(0).scrollHeight + " " + this.get(0).clientHeight);
-        	return this.get(0) ? this.get(0).scrollHeight > this.innerheight() : false;
+        	return this.get(0).scrollHeight > this.height();
     	}
 	})(jQuery);
 
 	$(function() {
 		$('a').each(function(ind) {
 			var a = $(this);
-			var iframe = a.parent().find('iframe');
+	//		var iframe = a.parent().find('iframe');
 	//		console.log($(iframe).attr('id'));
 			
-			if ($(iframe).hasScrollBar()) {
+	//		if ($(iframe).hasScrollBar()) {
 				a.css('right', '30px');
-			} else {
-				a.css('right', '10px');
-			}
+	//		} else {
+	//			a.css('right', '10px');
+	//		}
 		});
 	});
 	</script>
