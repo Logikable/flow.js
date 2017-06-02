@@ -8,28 +8,35 @@
 		$(element).parent().find('iframe').remove();
 		$(element).hide();
 	}
+	var links = {
+		jupyter: "http://192.168.56.202:8888/notebooks/Embedding.ipynb",
+		airflow: "http://192.168.56.202:8080/admin/",
+		editor: "editor.html",
+		tensorboard: "http://192.168.56.202:6006/",
+	}
+	function addiframe(location, link) {
+		var div = $("#" + location);
+		div.find('a').show();
+		div.append('<iframe id="' + link + '" src="' + links[link] + '" height="100%" width="100%"></iframe>');
+	}
 	</script>
 </head>
 
 <body onload="createEditor('config/diagrameditor.xml');">
-	<div style="background-color:red; width:50%; height:50%; position:absolute; top:0; left:0;">
+	<div id="topleft" style="background-color:red; width:50%; height:50%; position:absolute; top:0; left:0;">
 		<a href="#" onclick="closeButton(this);" style="position:absolute; top:10px; color:silver; text-decoration:none;">&#10006</a>
-		<iframe id="jupyter" src="http://192.168.56.202:8888/notebooks/Embedding.ipynb" height="100%" width="100%"></iframe>
 	</div>
 
-	<div style="background-color:blue; width:50%; height:50%; position:absolute; top:0; right:0;">
+	<div id="topright" style="background-color:blue; width:50%; height:50%; position:absolute; top:0; right:0;">
 		<a href="#" onclick="closeButton(this);" style="position:absolute; top:10px; color:silver; text-decoration:none;">&#10006</a>
-		<iframe id="airflow" src="http://192.168.56.202:8080/admin/" height="100%"" width="100%"></iframe>
 	</div>
 
-	<div style="background-color:green; width:50%; height:50%; position:absolute; bottom:0; left:0;">
+	<div id="bottomleft" style="background-color:green; width:50%; height:50%; position:absolute; bottom:0; left:0;">
 		<a href="#" onclick="closeButton(this);" style="position:absolute; top:10px; color:silver; text-decoration:none;">&#10006</a>
-		<iframe id="editor" src="editor.html" height="100%" width="100%"></iframe>
 	</div>
 
-	<div style="background-color:orange; width:50%; height:50%; position:absolute; bottom:0; right:0;">
+	<div id="bottomright" style="background-color:orange; width:50%; height:50%; position:absolute; bottom:0; right:0;">
 		<a href="#" onclick="closeButton(this);" style="position:absolute; top:10px; color:silver; text-decoration:none;">&#10006</a>
-		<iframe id="tensorboard" src="http://192.168.56.202:6006/" height="100%" width="100%"></iframe>
 	</div>
 
 	<script>
@@ -41,12 +48,19 @@
 	})(jQuery);
 
 	$(function() {
+		addiframe("topleft", "jupyter");
+		addiframe("topright", "airflow");
+		addiframe("bottomleft", "editor");
+		addiframe("bottomright", "tensorboard");
+	});
+
+	$(function() {
 		$('a').each(function(ind) {
 			var a = $(this);
 	//		var iframe = a.parent().find('iframe');
-	//		console.log($(iframe).attr('id'));
+	//		console.log(iframe.attr('id'));
 			
-	//		if ($(iframe).hasScrollBar()) {
+	//		if (iframe.hasScrollBar()) {
 				a.css('right', '30px');
 	//		} else {
 	//			a.css('right', '10px');
