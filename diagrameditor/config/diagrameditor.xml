@@ -315,6 +315,7 @@
 			}
 		]]></add>
 		<br/><br/>
+		<add as="Data" template="image" icon="images/file.png"/>
 		<add as="Text" template="text" icon="images/text.gif"/>
 		<add as="Container" template="container" icon="images/swimlane.gif"/>
 		<add as="Rectangle" template="rectangle" icon="images/rectangle.gif"/>
