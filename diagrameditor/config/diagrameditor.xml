@@ -24,6 +24,20 @@
 				</mxCell>
 			</Connector>
 		</add>
+		<add as="upload">
+			<Upload label="Upload Data" href="">
+				<mxCell vertex="1" style="upload">
+					<mxGeometry as="geometry" width="40" height="40"/>
+				</mxCell>
+			</Upload>
+		</add>
+		<add as="cleansing">
+			<Cleansing label="Data Cleansing" href="">
+				<mxCell vertex="1" style="cleansing">
+					<mxGeometry as="geometry" width="40" height="40"/>
+				</mxCell>
+			</Cleansing>
+		</add>
 		<add as="container">
 			<Container label="Container" href="">
 				<mxCell vertex="1" style="swimlane" connectable="0">
@@ -121,6 +135,12 @@
 			}
 		]]></add>
 		<mxStylesheet as="stylesheet">
+			<add as="upload">
+				<add as="shape" value="rectangle"/>
+			</add>
+			<add as="cleansing">
+				<add as="shape" value="rectangle"/>
+			</add>
 			<add as="text">
 				<add as="shape" value="rectangle"/>
 				<add as="perimeter" value="rectanglePerimeter"/>
@@ -315,7 +335,8 @@
 			}
 		]]></add>
 		<br/><br/>
-		<add as="Data" template="image" icon="images/file.png"/>
+		<add as="Upload Data" template="upload" icon="images/file.png"/>
+		<add as="Data Cleansing" template="cleansing" icon="images/funnel.png"/>
 		<add as="Text" template="text" icon="images/text.gif"/>
 		<add as="Container" template="container" icon="images/swimlane.gif"/>
 		<add as="Rectangle" template="rectangle" icon="images/rectangle.gif"/>
