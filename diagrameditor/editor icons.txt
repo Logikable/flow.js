@@ -1,0 +1,10 @@
+Data (xml/csv file) [glyphicon glyphicon-file]
+Data cleansing [https://thenounproject.com/term/funnel/5608/]
+Data processing [https://thenounproject.com/search/?q=data%20processing]
+Data join [https://thenounproject.com/search/?q=data%20join&i=577281]
+Data warehouse [glyphicon glyphicon-hdd]
+Machine learning – training
+  linear regression [https://thenounproject.com/term/regression-analysis/]
+  neural network [https://thenounproject.com/term/neural-network/]
+Machine learning – prediction [https://thenounproject.com/search/?q=prediction&i=986786]
+Billing [fa fa-money]

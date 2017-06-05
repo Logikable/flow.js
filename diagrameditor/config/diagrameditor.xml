@@ -38,6 +38,55 @@
 				</mxCell>
 			</Cleansing>
 		</add>
+		<add as="processing">
+			<Processing label="Data Processing" href="">
+				<mxCell vertex="1" style="processing">
+					<mxGeometry as="geometry" width="40" height="40"/>
+				</mxCell>
+			</Processing>
+		</add>
+		<add as="join">
+			<Join label="Data Join" href="">
+				<mxCell vertex="1" style="join">
+					<mxGeometry as="geometry" width="40" height="40"/>
+				</mxCell>
+			</Join>
+		</add>
+		<add as="warehouse">
+			<Warehouse label="Data Warehouse" href="">
+				<mxCell vertex="1" style="warehouse">
+					<mxGeometry as="geometry" width="40" height="40"/>
+				</mxCell>
+			</Warehouse>
+		</add>
+		<add as="regression">
+			<Regression label="Linear Regression" href="">
+				<mxCell vertex="1" style="regression">
+					<mxGeometry as="geometry" width="40" height="40"/>
+				</mxCell>
+			</Regression>
+		</add>
+		<add as="network">
+			<Network label="Neural Network" href="">
+				<mxCell vertex="1" style="network">
+					<mxGeometry as="geometry" width="40" height="40"/>
+				</mxCell>
+			</Network>
+		</add>
+		<add as="prediction">
+			<Prediction label="Prediction" href="">
+				<mxCell vertex="1" style="prediction">
+					<mxGeometry as="prediction" width="40" height="40"/>
+				</mxCell>
+			</Prediction>
+		</add>
+		<add as="billing">
+			<Billing label="Billing" href="">
+				<mxCell vertex="1" style="billing">
+					<mxGeometry as="billing" width="40" height="40"/>
+				</mxCell>
+			</Billing>
+		</add>
 		<add as="container">
 			<Container label="Container" href="">
 				<mxCell vertex="1" style="swimlane" connectable="0">
@@ -139,6 +188,27 @@
 				<add as="shape" value="rectangle"/>
 			</add>
 			<add as="cleansing">
+				<add as="shape" value="rectangle"/>
+			</add>
+			<add as="processing">
+				<add as="shape" value="rectangle"/>
+			</add>
+			<add as="join">
+				<add as="shape" value="rectangle"/>
+			</add>
+			<add as="warehouse">
+				<add as="shape" value="rectangle"/>
+			</add>
+			<add as="regression">
+				<add as="shape" value="rectangle"/>
+			</add>
+			<add as="network">
+				<add as="shape" value="rectangle"/>
+			</add>
+			<add as="prediction">
+				<add as="shape" value="rectangle"/>
+			</add>
+			<add as="billing">
 				<add as="shape" value="rectangle"/>
 			</add>
 			<add as="text">
@@ -336,8 +406,15 @@
 		]]></add>
 		<br/><br/>
 		<add as="Upload Data" template="upload" icon="images/file.png"/>
-		<add as="Data Cleansing" template="cleansing" icon="images/funnel.png"/>
-		<add as="Text" template="text" icon="images/text.gif"/>
+		<add as="Data Cleansing" template="cleansing" icon="images/cleansing.png"/>
+		<add as="Data Processing" template="processing" icon="images/processing.png"/>
+		<add as="Data Join" template="join" icon="images/join.png"/>
+		<add as="Data Warehouse" template="warehouse" icon="images/warehouse.png"/>
+		<add as="Linear Regression" template="regression" icon="images/regression.png"/>
+		<add as="Neural Network" template="network" icon="images/network.png"/>
+		<add as="Prediction" template="prediction" icon="images/prediction.png"/>
+		<add as="Billing" template="billing" icon="images/billing.png"/>
+<!--		<add as="Text" template="text" icon="images/text.gif"/>
 		<add as="Container" template="container" icon="images/swimlane.gif"/>
 		<add as="Rectangle" template="rectangle" icon="images/rectangle.gif"/>
 		<add as="Rounded" template="rounded" icon="images/rounded.gif"/>
@@ -350,6 +427,6 @@
 		<add as="Cylinder" template="shape" style="cylinder" icon="images/cylinder.gif"/>
 		<add as="Cloud" template="cloud" style="cloud" icon="images/cloud.gif"/>
 		<add as="Line" template="hline" style="hline" icon="images/hline.gif"/>
-		<add as="Image" template="image" icon="images/image.gif"/>
+		<add as="Image" template="image" icon="images/image.gif"/> -->
 	</mxDefaultToolbar>
 </mxEditor>
