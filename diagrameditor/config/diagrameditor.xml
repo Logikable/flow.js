@@ -41,7 +41,7 @@
 		<add as="processing">
 			<Processing label="Data Processing" href="">
 				<mxCell vertex="1" style="processing">
-					<mxGeometry as="geometry" width="80" height="80"/>
+					<mxGeometry as="geometry" width="90" height="90"/>
 				</mxCell>
 			</Processing>
 		</add>
@@ -55,7 +55,7 @@
 		<add as="warehouse">
 			<Warehouse label="Data Warehouse" href="">
 				<mxCell vertex="1" style="warehouse">
-					<mxGeometry as="geometry" width="80" height="60"/>
+					<mxGeometry as="geometry" width="90" height="60"/>
 				</mxCell>
 			</Warehouse>
 		</add>
@@ -203,6 +203,8 @@
 				<add as="shape" value="triangle"/>
 				<add as="perimeter" value="trianglePerimeter"/>
 				<add as="align" value="left"/>
+				<add as="strokeColor" value="#FFCF8A"/>
+				<add as="fillColor" value="#FFCF8A"/>
 			</add>
 			<add as="warehouse">
 				<add as="shape" value="cylinder"/>
@@ -218,6 +220,8 @@
 			</add>
 			<add as="network">
 				<add as="shape" value="doubleEllipse"/>
+				<add as="strokeColor" value="#CDEB8B"/>
+				<add as="fillColor" value="#CDEB8B"/>
 			</add>
 			<add as="prediction">
 				<add as="shape" value="rectangle"/>
