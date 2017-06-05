@@ -76,14 +76,14 @@
 		<add as="prediction">
 			<Prediction label="Prediction" href="">
 				<mxCell vertex="1" style="prediction">
-					<mxGeometry as="prediction" width="40" height="40"/>
+					<mxGeometry as="geometry" width="40" height="40"/>
 				</mxCell>
 			</Prediction>
 		</add>
 		<add as="billing">
 			<Billing label="Billing" href="">
 				<mxCell vertex="1" style="billing">
-					<mxGeometry as="billing" width="40" height="40"/>
+					<mxGeometry as="geometry" width="40" height="40"/>
 				</mxCell>
 			</Billing>
 		</add>
