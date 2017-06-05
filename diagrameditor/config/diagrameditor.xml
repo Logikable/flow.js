@@ -404,7 +404,7 @@
 				}
 			}
 		]]></add>
-		<add as="connect" mode="connect" icon="images/straight.gif"><![CDATA[
+<!--		<add as="connect" mode="connect" icon="images/straight.gif"><![CDATA[
 			function (editor)
 			{
 				if (editor.defaultEdge != null)
@@ -421,7 +421,7 @@
 					editor.defaultEdge.style = 'arrowConnector';
 				}
 			}
-		]]></add>
+		]]></add> -->
 		<br/><br/>
 		<add as="Upload Data" template="upload" icon="images/file.png"/>
 		<add as="Data Cleansing" template="cleansing" icon="images/cleansing.png"/>
