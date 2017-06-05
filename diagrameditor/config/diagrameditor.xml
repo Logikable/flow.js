@@ -27,21 +27,21 @@
 		<add as="upload">
 			<Upload label="Upload Data" href="">
 				<mxCell vertex="1" style="upload">
-					<mxGeometry as="geometry" width="60" height="40"/>
+					<mxGeometry as="geometry" width="70" height="40"/>
 				</mxCell>
 			</Upload>
 		</add>
 		<add as="cleansing">
 			<Cleansing label="Data Cleansing" href="">
 				<mxCell vertex="1" style="cleansing">
-					<mxGeometry as="geometry" width="80" height="60"/>
+					<mxGeometry as="geometry" width="100" height="80"/>
 				</mxCell>
 			</Cleansing>
 		</add>
 		<add as="processing">
 			<Processing label="Data Processing" href="">
 				<mxCell vertex="1" style="processing">
-					<mxGeometry as="geometry" width="60" height="60"/>
+					<mxGeometry as="geometry" width="80" height="80"/>
 				</mxCell>
 			</Processing>
 		</add>
@@ -55,28 +55,28 @@
 		<add as="warehouse">
 			<Warehouse label="Data Warehouse" href="">
 				<mxCell vertex="1" style="warehouse">
-					<mxGeometry as="geometry" width="60" height="60"/>
+					<mxGeometry as="geometry" width="80" height="60"/>
 				</mxCell>
 			</Warehouse>
 		</add>
 		<add as="regression">
 			<Regression label="Linear Regression" href="">
 				<mxCell vertex="1" style="regression">
-					<mxGeometry as="geometry" width="60" height="60"/>
+					<mxGeometry as="geometry" width="90" height="90"/>
 				</mxCell>
 			</Regression>
 		</add>
 		<add as="network">
 			<Network label="Neural Network" href="">
 				<mxCell vertex="1" style="network">
-					<mxGeometry as="geometry" width="60" height="60"/>
+					<mxGeometry as="geometry" width="90" height="90"/>
 				</mxCell>
 			</Network>
 		</add>
 		<add as="prediction">
 			<Prediction label="Prediction" href="">
 				<mxCell vertex="1" style="prediction">
-					<mxGeometry as="geometry" width="40" height="40"/>
+					<mxGeometry as="geometry" width="60" height="40"/>
 				</mxCell>
 			</Prediction>
 		</add>
