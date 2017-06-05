@@ -27,49 +27,49 @@
 		<add as="upload">
 			<Upload label="Upload Data" href="">
 				<mxCell vertex="1" style="upload">
-					<mxGeometry as="geometry" width="40" height="40"/>
+					<mxGeometry as="geometry" width="60" height="40"/>
 				</mxCell>
 			</Upload>
 		</add>
 		<add as="cleansing">
 			<Cleansing label="Data Cleansing" href="">
 				<mxCell vertex="1" style="cleansing">
-					<mxGeometry as="geometry" width="40" height="40"/>
+					<mxGeometry as="geometry" width="80" height="60"/>
 				</mxCell>
 			</Cleansing>
 		</add>
 		<add as="processing">
 			<Processing label="Data Processing" href="">
 				<mxCell vertex="1" style="processing">
-					<mxGeometry as="geometry" width="40" height="40"/>
+					<mxGeometry as="geometry" width="60" height="60"/>
 				</mxCell>
 			</Processing>
 		</add>
 		<add as="join">
 			<Join label="Data Join" href="">
 				<mxCell vertex="1" style="join">
-					<mxGeometry as="geometry" width="40" height="40"/>
+					<mxGeometry as="geometry" width="60" height="60"/>
 				</mxCell>
 			</Join>
 		</add>
 		<add as="warehouse">
 			<Warehouse label="Data Warehouse" href="">
 				<mxCell vertex="1" style="warehouse">
-					<mxGeometry as="geometry" width="40" height="40"/>
+					<mxGeometry as="geometry" width="60" height="60"/>
 				</mxCell>
 			</Warehouse>
 		</add>
 		<add as="regression">
 			<Regression label="Linear Regression" href="">
 				<mxCell vertex="1" style="regression">
-					<mxGeometry as="geometry" width="40" height="40"/>
+					<mxGeometry as="geometry" width="60" height="60"/>
 				</mxCell>
 			</Regression>
 		</add>
 		<add as="network">
 			<Network label="Neural Network" href="">
 				<mxCell vertex="1" style="network">
-					<mxGeometry as="geometry" width="40" height="40"/>
+					<mxGeometry as="geometry" width="60" height="60"/>
 				</mxCell>
 			</Network>
 		</add>
@@ -188,22 +188,36 @@
 				<add as="shape" value="rectangle"/>
 			</add>
 			<add as="cleansing">
-				<add as="shape" value="rectangle"/>
+				<add as="shape" value="cloud"/>
+				<add as="perimeter" value="ellipsePerimeter"/>
+				<add as="strokeColor" value="#CDEB8B"/>
+				<add as="fillColor" value="#CDEB8B"/>
 			</add>
 			<add as="processing">
-				<add as="shape" value="rectangle"/>
+				<add as="shape" value="rhombus"/>
+				<add as="perimeter" value="rhombusPerimeter"/>
+				<add as="strokeColor" value="#FFCF8A"/>
+				<add as="fillColor" value="#FFCF8A"/>
 			</add>
 			<add as="join">
-				<add as="shape" value="rectangle"/>
+				<add as="shape" value="triangle"/>
+				<add as="perimeter" value="trianglePerimeter"/>
+				<add as="align" value="left"/>
 			</add>
 			<add as="warehouse">
-				<add as="shape" value="rectangle"/>
+				<add as="shape" value="cylinder"/>
+				<add as="spacingTop" value="10"/>
+				<add as="strokeColor" value="#4096EE"/>
+				<add as="fillColor" value="#4096EE"/>
 			</add>
 			<add as="regression">
-				<add as="shape" value="rectangle"/>
+				<add as="shape" value="ellipse"/>
+				<add as="perimeter" value="ellipsePerimeter"/>
+				<add as="strokeColor" value="#CDEB8B"/>
+				<add as="fillColor" value="#CDEB8B"/>
 			</add>
 			<add as="network">
-				<add as="shape" value="rectangle"/>
+				<add as="shape" value="doubleEllipse"/>
 			</add>
 			<add as="prediction">
 				<add as="shape" value="rectangle"/>
